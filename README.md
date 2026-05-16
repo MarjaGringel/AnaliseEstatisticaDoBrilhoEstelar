@@ -11,7 +11,7 @@ Este projeto realiza uma análise estatística completa sobre dados simulados de
 O objetivo é verificar se os dados seguem o modelo teórico assumido, aplicar métodos de inferência e avaliar o impacto de outliers.
 
 
-#Objetivos do Projeto
+##Objetivos do Projeto
 
 - Simular 1000 observações de brilho estelar seguindo uma distribuição normal.
 - Visualizar a distribuição dos dados por meio de histogramas, boxplots e QQ-plots.
@@ -22,7 +22,7 @@ O objetivo é verificar se os dados seguem o modelo teórico assumido, aplicar m
 - Avaliar o impacto dos outliers na média.
 - Interpretar os resultados de forma pedagógica.
 
-#Metodologia
+##Metodologia
 
 1. **Simulação dos dados** 
  Os dados foram gerados usando `rnorm()`, assumindo:
@@ -48,7 +48,7 @@ O objetivo é verificar se os dados seguem o modelo teórico assumido, aplicar m
  - Comparação da média com e sem outliers
 
 
-#Estrutura do Notebook
+##Estrutura do Notebook
 
 1. **Simulação dos Dados**  
    Geração da amostra e criação do data frame.
@@ -66,7 +66,7 @@ O objetivo é verificar se os dados seguem o modelo teórico assumido, aplicar m
    Síntese dos resultados e interpretação final.
 
 
-#Resultados Resumidos
+##Resultados Resumidos
 
 - A média amostral ficou muito próxima da média teórica (15.5).
 - Os intervalos de confiança (t e z) incluíram o valor teórico.
@@ -77,7 +77,7 @@ O objetivo é verificar se os dados seguem o modelo teórico assumido, aplicar m
 - Outliers podem distorcer a média e aumentar a variabilidade.
 
 
-#Como Executar
+##Como Executar
 
 1. Abra o notebook no Google Colab.
 2. Execute a célula de instalação de pacotes **apenas se necessário**.
@@ -85,7 +85,7 @@ O objetivo é verificar se os dados seguem o modelo teórico assumido, aplicar m
 4. Observe os gráficos, tabelas e interpretações.
 
 
-#Conclusão
+##Conclusão
 
 A análise confirma que os dados simulados seguem adequadamente o modelo normal proposto.  
 Os intervalos de confiança e testes de hipótese mostram que a média amostral é compatível com o valor teórico.  
